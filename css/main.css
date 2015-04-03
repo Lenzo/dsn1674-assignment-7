@@ -1,3 +1,39 @@
-header img{
-  display: inline-block;
+.left-beetle{
+  float: left;
 }
+
+h1{
+  display: inline;
+  text-align: center;
+}
+
+.right-beetle{
+  float: right;
+}
+
+li{
+  display: inline-block;
+  background-color: #a08774;
+  color: #fff;
+  padding: .5em;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.buckets figure{
+  margin: 0;
+  padding: 0;
+}
+
+.buckets img{
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+
