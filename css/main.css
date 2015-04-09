@@ -16,18 +16,24 @@ body{
 
 .left-beetle{
   float: left;
+  clear: left;
 }
 
 
-
+/*THINGS I NEED TO FIGURE OUT STILL
+- Getting the a to take up the whole li
+-
+*/
 
 
 /*----------------------------HEADER BEGINS----------------------------*/
 
 header{
-  background-color: grey;
   text-align: center;
   padding: 1em;
+  background-image: url("../images/waves-pattern.png");
+  color: #502204;
+
 }
 
 h1{
@@ -40,11 +46,6 @@ h1{
 
 /*----------------------------HEADER ENDS----------------------------*/
 
-
-
-
-
-
 /*----------------------------NAV BEGINS----------------------------*/
 
 ol{
@@ -54,16 +55,22 @@ ol{
 
 li{
   display: inline-table;
-  background-color: #a08774;
   color: #fff;
-  padding: .5em;
   width: 25%;
+  padding: .5em;
+  background-color: #a08774;
+
 }
 
 a{
   text-decoration: none;
   color: #fff;
-  width: 25%;
+}
+
+a:hover{
+  background-color: #502204;
+  width: 100%;  
+
 }
 
 nav{
@@ -73,32 +80,49 @@ nav{
 
 /*----------------------------NAV ENDS----------------------------*/
 
-
-
-
 /*----------------------------BANNER BEGINS----------------------------*/
+
+.banner{
+  witdh: 100%;
+  background-image: url(../images/banner.jpg);
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  padding: 2em;
+}
+
 /*----------------------------BANNER ENDS----------------------------*/
-
-
-
 
 /*----------------------------BUCKETS BEGIN----------------------------*/
 
-.buckets figure{
-  margin: 0;
-  padding: 0;
-}
 
 .buckets img{
   width: 50%;
   margin: 0;
   padding: 0;
+  display: table-cell;
+  float: left;
+  position: relative;
 }
+
+.buckets a{
+  position: absolute;
+}
+
+.antnest a{
+  background-color: green;
+  position: absolute;
+  top:  73%
+}
+
 
 /*----------------------------BUCKETS ENDS----------------------------*/
 
-
-
 /*----------------------------FOOTER BEGINS----------------------------*/
+
+footer{
+  background-color: #a08774;
+}
+
 /*----------------------------FOOTER ENDS----------------------------*/
 
