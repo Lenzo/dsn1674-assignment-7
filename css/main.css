@@ -27,6 +27,7 @@ body{
   /*Dosis font weights: 400/Normal 700/Bold 800/Extra Bold*/
 }
 
+
 /*----------------------------HEADER BEGINS----------------------------*/
 header{
   text-align: center;
@@ -44,16 +45,8 @@ h1{
   font-size: 2.5em;
   margin: 0;
 }
-
-.right-beetle{
-  float: right;
-}
-
-.left-beetle{
-  float: left;
-  clear: left;
-}
 /*----------------------------HEADER ENDS----------------------------*/
+
 
 /*----------------------------NAV BEGINS----------------------------*/
 
@@ -67,8 +60,6 @@ li{
   color: #fff;
   width: 25%;
   background-color: #a79180;
-
-
 }
 
 nav a{
@@ -157,6 +148,7 @@ a:hover figcaption{
 }
 /*---------------------------------------------------------------------*/
 
+
 /*----------------------------FOOTER BEGINS----------------------------*/
 
 footer{
@@ -173,12 +165,6 @@ margin: .5em;
   display: block;
   width: .8em;
   margin: 0 auto;
-
-  
 }
-
-
-
-
 /*----------------------------FOOTER ENDS----------------------------*/
 
