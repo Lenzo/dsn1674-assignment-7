@@ -42,7 +42,7 @@ h1{
   background-position: right, left;
   display: inline-block;
   width: 100%;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin: 0;
 }
 /*----------------------------HEADER ENDS----------------------------*/
@@ -66,7 +66,7 @@ nav a{
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  padding: .5em;
+  padding: .5rem;
 }
 
 a:hover nav{
@@ -100,7 +100,7 @@ h2{
   padding: 0em;
   margin: auto;
   width: 75%;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 /*---------------------------------------------------------------------*/
 
@@ -159,7 +159,6 @@ footer{
 footer img{
 width: 2em;
 margin: .5em;
-
 }
 .back-to-top{
   display: block;
