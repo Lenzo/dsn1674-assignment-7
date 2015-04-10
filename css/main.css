@@ -9,6 +9,8 @@
 -----------------------------------
 */
 
+
+
 html {
   box-sizing: border-box;
 }
@@ -25,10 +27,7 @@ body{
   /*Dosis font weights: 400/Normal 700/Bold 800/Extra Bold*/
 }
 
-
-
 /*----------------------------HEADER BEGINS----------------------------*/
-
 header{
   text-align: center;
   padding: 1em;
@@ -54,7 +53,6 @@ h1{
   float: left;
   clear: left;
 }
-
 /*----------------------------HEADER ENDS----------------------------*/
 
 /*----------------------------NAV BEGINS----------------------------*/
@@ -83,14 +81,16 @@ nav a{
 a:hover nav{
   background-color: #502204;
   width: 100%;  
-
 }
+
+
 
 nav{
   text-align: center;
   font-weight: 800;
 }
 /*---------------------------------------------------------------------*/
+
 
 /*----------------------------BANNER BEGINS----------------------------*/
 .banner{
@@ -102,13 +102,17 @@ nav{
   padding-top: 8em;
   padding-bottom: .6em;
   margin: 0;
+  box-shadow: 0 -30px 263px black inset  
 }
 
 h2{
   padding: 0em;
-  margin: 0em;
+  margin: auto;
+  width: 75%;
+  font-size: 1.3em;
 }
 /*---------------------------------------------------------------------*/
+
 
 /*----------------------------BUCKETS BEGIN----------------------------*/
 .buckets{
